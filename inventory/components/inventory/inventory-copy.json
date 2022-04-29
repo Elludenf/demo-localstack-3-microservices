@@ -1,0 +1,102 @@
+[
+    {
+        "id": 0,
+        "vehicleId": 0,
+        "quantity": 57
+    },
+    {
+        "id": 1,
+        "vehicleId": 1,
+        "quantity": 39
+    },
+    {
+        "id": 2,
+        "vehicleId": 2,
+        "quantity": 14
+    },
+    {
+        "id": 3,
+        "vehicleId": 3,
+        "quantity": 11
+    },
+    {
+        "id": 4,
+        "vehicleId": 4,
+        "quantity": 93
+    },
+    {
+        "id": 5,
+        "vehicleId": 5,
+        "quantity": 49
+    },
+    {
+        "id": 6,
+        "vehicleId": 6,
+        "quantity": 27
+    },
+    {
+        "id": 7,
+        "vehicleId": 7,
+        "quantity": 17
+    },
+    {
+        "id": 8,
+        "vehicleId": 8,
+        "quantity": 6
+    },
+    {
+        "id": 9,
+        "vehicleId": 9,
+        "quantity": 51
+    },
+    {
+        "id": 10,
+        "vehicleId": 10,
+        "quantity": 0
+    },
+    {
+        "id": 11,
+        "vehicleId": 11,
+        "quantity": 84
+    },
+    {
+        "id": 12,
+        "vehicleId": 12,
+        "quantity": 46
+    },
+    {
+        "id": 13,
+        "vehicleId": 13,
+        "quantity": 82
+    },
+    {
+        "id": 14,
+        "vehicleId": 14,
+        "quantity": 42
+    },
+    {
+        "id": 15,
+        "vehicleId": 15,
+        "quantity": 81
+    },
+    {
+        "id": 16,
+        "vehicleId": 16,
+        "quantity": 93
+    },
+    {
+        "id": 17,
+        "vehicleId": 17,
+        "quantity": 71
+    },
+    {
+        "id": 18,
+        "vehicleId": 18,
+        "quantity": 15
+    },
+    {
+        "id": 19,
+        "vehicleId": 19,
+        "quantity": 50
+    }
+]

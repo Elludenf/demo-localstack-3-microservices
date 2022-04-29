@@ -1,0 +1,79 @@
+version: "3"
+services:
+  sales:
+    volumes:
+      - ./sales:/var/node
+      - /var/node/node_modules
+    build:
+      context: .
+      dockerfile: sales/Dockerfile
+    container_name: demo_sales
+    restart: always
+    env_file: /sales/.env
+    ports:
+      - "4001:4001"
+    depends_on:
+      localstack:
+        condition: service_healthy
+
+  inventory:
+    volumes:
+      - ./inventory:/var/node
+      - /var/node/node_modules
+    build:
+      context: .
+      dockerfile: inventory/Dockerfile
+    container_name: demo_inventory
+    restart: always
+    env_file: inventory/.env
+    ports:
+      - "4002:4002"
+    depends_on:
+      localstack:
+        condition: service_healthy
+
+  notifications:
+    volumes:
+      - ./notifications:/var/node
+      - /var/node/node_modules
+    build:
+      context: .
+      dockerfile: notifications/Dockerfile
+    container_name: demo_notifications
+    restart: always
+    env_file: notifications/.env
+    ports:
+      - "4003:4003"
+    depends_on:
+      localstack:
+        condition: service_healthy
+
+
+  localstack:
+    container_name: demo_localstack
+    image: localstack/localstack:0.13.2
+    hostname: localstack
+    ports:
+      - "4510-4599:4510-4599"
+    environment:
+      - SERVICES=sqs,sns
+      - DEBUG=1
+      #- DATA_DIR=packages/localstack/tmp/localstack/data
+      - PORT_WEB_UI=8080
+      - EDGE_PORT=4566
+      - AWS_DEFAULT_REGION=us-east-1
+    volumes:
+      - "${TMPDIR:-/tmp/localstack}:/tmp/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ./scripts:/docker-entrypoint-initaws.d
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "bash",
+          "-c",
+          "/docker-entrypoint-initaws.d/localstack-healthcheck.sh"
+        ]
+      interval: 5s
+      timeout: 5s
+      start_period: 10s
