@@ -1,0 +1,162 @@
+[
+    {
+        "id": 0,
+        "type": "Minivan",
+        "model": "Corvette",
+        "name": "Land Rover Altima",
+        "quantity": 57,
+        "price": 24962.09
+    },
+    {
+        "id": 1,
+        "type": "Extended Cab Pickup",
+        "model": "Jetta",
+        "name": "Chrysler Prius",
+        "quantity": 39,
+        "price": 68583.56
+    },
+    {
+        "id": 2,
+        "type": "Crew Cab Pickup",
+        "model": "ATS",
+        "name": "Maserati Altima",
+        "quantity": 14,
+        "price": 89861.22
+    },
+    {
+        "id": 3,
+        "type": "Convertible",
+        "model": "Spyder",
+        "name": "Chrysler A4",
+        "quantity": 11,
+        "price": 78156.21
+    },
+    {
+        "id": 4,
+        "type": "Wagon",
+        "model": "Alpine",
+        "name": "Chrysler V90",
+        "quantity": 93,
+        "price": 32929.48
+    },
+    {
+        "id": 5,
+        "type": "Passenger Van",
+        "model": "Roadster",
+        "name": "Mini A4",
+        "quantity": 49,
+        "price": 22085.51
+    },
+    {
+        "id": 6,
+        "type": "Convertible",
+        "model": "Golf",
+        "name": "Dodge Element",
+        "quantity": 27,
+        "price": 71715.88
+    },
+    {
+        "id": 7,
+        "type": "Crew Cab Pickup",
+        "model": "Camry",
+        "name": "Cadillac Jetta",
+        "quantity": 17,
+        "price": 49159.71
+    },
+    {
+        "id": 8,
+        "type": "Cargo Van",
+        "model": "Model 3",
+        "name": "Kia Countach",
+        "quantity": 6,
+        "price": 44725.24
+    },
+    {
+        "id": 9,
+        "type": "SUV",
+        "model": "Volt",
+        "name": "Volkswagen Expedition",
+        "quantity": 51,
+        "price": 41565.45
+    },
+    {
+        "id": 10,
+        "type": "Hatchback",
+        "model": "Prius",
+        "name": "Land Rover Aventador",
+        "quantity": 0,
+        "price": 34629
+    },
+    {
+        "id": 11,
+        "type": "Wagon",
+        "model": "Alpine",
+        "name": "Volvo Expedition",
+        "quantity": 84,
+        "price": 12315.67
+    },
+    {
+        "id": 12,
+        "type": "Extended Cab Pickup",
+        "model": "A8",
+        "name": "Nissan Expedition",
+        "quantity": 46,
+        "price": 21429.32
+    },
+    {
+        "id": 13,
+        "type": "Hatchback",
+        "model": "Durango",
+        "name": "Polestar CTS",
+        "quantity": 82,
+        "price": 49222.5
+    },
+    {
+        "id": 14,
+        "type": "Minivan",
+        "model": "Fortwo",
+        "name": "Mazda Escalade",
+        "quantity": 42,
+        "price": 51658.71
+    },
+    {
+        "id": 15,
+        "type": "Convertible",
+        "model": "Challenger",
+        "name": "Land Rover Cruze",
+        "quantity": 81,
+        "price": 72297.37
+    },
+    {
+        "id": 16,
+        "type": "Hatchback",
+        "model": "Grand Caravan",
+        "name": "Maserati Countach",
+        "quantity": 93,
+        "price": 40827.99
+    },
+    {
+        "id": 17,
+        "type": "Coupe",
+        "model": "Impala",
+        "name": "Volvo Element",
+        "quantity": 71,
+        "price": 86242.63
+    },
+    {
+        "id": 18,
+        "type": "Sedan",
+        "model": "Expedition",
+        "name": "Jaguar Model S",
+        "quantity": 15,
+        "price": 73486.71
+    },
+    {
+        "id": 19,
+        "type": "Hatchback",
+        "model": "A4",
+        "name": "Hyundai Corvette",
+        "quantity": 50,
+        "price": 21522.83
+    }
+]
